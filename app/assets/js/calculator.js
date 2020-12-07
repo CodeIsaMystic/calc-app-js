@@ -80,7 +80,29 @@ function handleSymbol(value) {
 }
 
 function handleMath(value) {
+  const intBuffer = parseInt(buffer);
 
+  if (runningTotal === 0) {
+    runningTotal = intBuffer;
+  } else {
+    addsOperations(intBuffer);
+  }
+
+  previousOperator = value;
+
+  buffer = "0";
+}
+
+function addsOperations(intBuffer) {
+  if (previousOperator === "+") {
+    runningTotal += intBuffer;
+  } else if (previousOperator === "-") {
+    runningTotal -= intBuffer;
+  } else if (previousOperator === "×") {
+    runningTotal *= intBuffer;
+  } else if (previousOperator === "÷") {
+    runningTotal /= intBuffer;
+  }
 }
 
 

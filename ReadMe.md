@@ -36,7 +36,7 @@
     > buttonClick() cb => put the data on a backpack 
 
   HINT:
-  
+
     > use String data to handle potential Coercion issues(String() , "" + )
     > use ParseInt() to simplify tasks  
 
@@ -120,7 +120,17 @@ Use Switch statement to handle "C", "=",  "Arrow"
 
 
 ###### **FUNCTION HANDLE MATH(value)**
+ - assign a IntBuffer  variable to buffer as Integer (parseInt)
+ - and delegate to addsOperations() function 
+ 
+ - reset buffer to "0" on each steps to simplify the process
 
+
+###### **FUNCTION ADDSOPERATIONS(intBuffer)**
+=> detailing the four operations
+
+- its used a if/else if statement instead of switch but both are great
+- intBuffer as param to manipulates Number types 
 
 
 
