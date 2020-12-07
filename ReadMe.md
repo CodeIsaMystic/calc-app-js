@@ -49,6 +49,7 @@
 1. IF isNaN , then its a symbol
 
 2. ELSE is a number: 
+
           - use if statement
           - use isNan() & parseInt()
           - use two functions to handle situations
@@ -56,6 +57,7 @@
 
 
   **HINT**: play around with value (=data) <br/> 
+
             =>then with **isNaN()** because
             if isNaN then is a Symbol
 
