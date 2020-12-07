@@ -1,7 +1,7 @@
 # <h1 align="center"> Calculator Application </h1>
 
 
-## ** PLANS **
+## **PLANS**
 
 
 ### VARIABLES 
@@ -68,7 +68,7 @@
 
 
 
-####### **FUNCTION HANDLE NUMBER(value)**
+###### **FUNCTION HANDLE NUMBER(value)**
 If is a **number**, play with **value & buffer** 
 
   ==> two cases: "0" & add a value
@@ -78,7 +78,7 @@ If is a **number**, play with **value & buffer**
 
 
 
-#######  **FUNCTION HANDLE SYMBOL(value)**
+######  **FUNCTION HANDLE SYMBOL(value)**
 Use Switch statement to handle "C", "=",  "Arrow"
 
 **1. case "C" :** 
@@ -111,10 +111,10 @@ Use Switch statement to handle "C", "=",  "Arrow"
 **4. default: :**
   call new func handleMath()
 
-#######  **FUNCTION HANDLE MATH(value)**
+###### **FUNCTION HANDLE MATH(value)**
 
 
-#######  **FUNCTION RE RENDER()**
+###### **FUNCTION RE RENDER()**
 to call on every changes 
       => screen.innerText assign to buffer
 
