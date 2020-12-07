@@ -1,9 +1,7 @@
-# ** CALCULATOR **
-
 # <h1 align="center"> Calculator Application </h1>
 
 
-##  ** PLANS **
+## ** PLANS **
 
 
 ### VARIABLES 
@@ -14,13 +12,15 @@
    => keeping track what been previously pressed
 4. const on **screen** 
 
-**HINT**
-  => assigning to "null" : 
-    => means : nothing was previously assigned..
+  **HINT**
+          => assigning to "null" : 
+              => means : nothing was previously assigned..
 
-#### QUERIES SELECTORS
+
+### QUERIES SELECTORS
 1. on calc-buttons container
 2. on screen 
+
 
 
 ###  EVENT LISTENER 
@@ -29,21 +29,25 @@
   => only click event for now
   => func () => buttonClick(event.target.innerText)
 
-**WARNING** 
-  => buttonClick() cb => put the data on a backpack 
 
-**HINT**
- => use String data to handle potential Coercion issues 
-   ==> String() , "" + 
- => use ParseInt() to simplify tasks  
+
+  **WARNING** 
+              => buttonClick() cb => put the data on a backpack 
+
+  **HINT**
+            => use String data to handle potential Coercion issues 
+                ==> String() , "" + 
+            => use ParseInt() to simplify tasks  
 
 
 
 ###  FUNCTIONS
 
-###### BUTTON CLICK()
 
-1. IF isNan , then its a symbol
+
+###### **FUNCTION BUTTON CLICK()**
+
+1. IF isNaN , then its a symbol
 
 2. ELSE is a number
  . use if statement
@@ -52,29 +56,29 @@
     => handleNumber() & handleSymbol()
 
 
-**HINT**
-=> play around with value (=data) then with isNaN() because
+  **HINT**
+            => play around with value (=data) then with **isNaN()** because
+                  => if isNaN then is a Symbol
 
- => if isNaN then is a Symbol
-
-=> using **parseInt** => "4" // 4
+            => using **parseInt** 
+                  => "4" // 4 
                   => "C" // NaN
 
 
 
 
 
-#######  HANDLE NUMBER(value)
+####### **FUNCTION HANDLE NUMBER(value)**
 If is a **number**, play with **value & buffer** 
-==> two cases: "0" & add a value
 
-1. if === "0" buffer = value
-2. else buffer += value
-
-
+  ==> two cases: "0" & add a value
+    1. if === "0" buffer = value
+    2. else buffer += value
 
 
-#######  HANDLE SYMBOL(value)
+
+
+#######  **FUNCTION HANDLE SYMBOL(value)**
 Use Switch statement to handle "C", "=",  "Arrow"
 
 **1. case "C" :** 
@@ -107,11 +111,11 @@ Use Switch statement to handle "C", "=",  "Arrow"
 **4. default: :**
   call new func handleMath()
 
-#######  HANDLE MATH(value)
+#######  **FUNCTION HANDLE MATH(value)**
 
 
-#######  RE RENDER
-=> to call on every changes 
-screen.innerText assign to buffer
+#######  **FUNCTION RE RENDER()**
+to call on every changes 
+      => screen.innerText assign to buffer
 
 
