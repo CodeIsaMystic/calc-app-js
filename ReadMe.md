@@ -49,10 +49,10 @@
 1. IF isNaN , then its a symbol
 
 2. ELSE is a number: 
- - use if statement
- - use isNan() & parseInt()
- - use two functions to handle situations
-    => handleNumber() & handleSymbol()
+          - use if statement
+          - use isNan() & parseInt()
+          - use two functions to handle situations
+          => handleNumber() & handleSymbol()
 
 
   **HINT**: play around with value (=data) <br/> 
@@ -113,7 +113,7 @@ Use Switch statement to handle "C", "=",  "Arrow"
 
 
 
-  
+
 
 ###### **FUNCTION HANDLE MATH(value)**
 
