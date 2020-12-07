@@ -81,16 +81,17 @@ If is a **number**, play with **value & buffer**
 ######  **FUNCTION HANDLE SYMBOL(value)**
 Use Switch statement to handle "C", "=",  "Arrow"
 
-**1. case "C" :** 
+**1. case "C" :** <br/>
   ==> reset variables
   ==> buffer to "0"  & runningTotal to 0
 
-**2. case "=" :**
+**2. case "=" :** <br/>
   ==> Assign buffer "" + (number(s) + symbol) to runningTotal
       then reset runningTotal to 0, prevOp to null and 
       handle operations with new func 
 
-  ==> play with previousOp => two situations
+  ==> play with previousOp:  two situations <br/>
+  
     => if( === null ) return
     
     => or
@@ -98,7 +99,7 @@ Use Switch statement to handle "C", "=",  "Arrow"
     pass buffer => string runningTotal
     reset runningTotal to 0
 
-**3. case "back arrow" :**
+**3. case "back arrow" :** <br/>
   ==> Moving back one char (str) or reset to "0" if only one char
   
   ==> play around with 
@@ -108,7 +109,7 @@ Use Switch statement to handle "C", "=",  "Arrow"
     => if .length === 1 so buffer reset to "0"
     => otherwise .substring(0, buffer.length -1)
 
-**4. default: :**
+**4. default: :** <br/>
   call new func handleMath()
 
 ###### **FUNCTION HANDLE MATH(value)**
