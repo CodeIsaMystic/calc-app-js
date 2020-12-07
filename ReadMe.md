@@ -2,9 +2,10 @@
 
 
 ## **PLANS**
+## Programming a simple calculator application, with simples functionalities, manipulating datas as String.
 
 
-### VARIABLES 
+### VARIABLES: 
 
 1. Creating a **runningTotal** var 
 2. And a **buffer** var to track datas
@@ -16,9 +17,9 @@
 > assigning to "null" means : nothing was previously assigned..
 
 
-### QUERY SELECTORS
-1. on calc-buttons container
-2. on screen 
+### QUERY SELECTORS:
+* on calc-buttons container
+* on screen 
 
 
 
@@ -31,12 +32,11 @@
 
 
   **WARNING:** <br/>
-    > - buttonClick() cb 
-        => put the data on a backpack 
+    > buttonClick() cb => put the data on a backpack 
 
   **HINT:** <br/>
-    > - use String data to handle potential Coercion issues(String() , "" + )
-      - use ParseInt() to simplify tasks  
+    > * use String data to handle potential Coercion issues(String() , "" + )
+      * use ParseInt() to simplify tasks  
 
 
 
