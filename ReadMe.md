@@ -13,28 +13,30 @@
    => keeping track what been previously pressed
 4. const on **screen** 
 
-  **HINT:** <br/>
+  HINT: 
 > assigning to "null" means : nothing was previously assigned..
 
 
 ### QUERY SELECTORS:
-> on calc-buttons container
-> on screen 
+- on calc-buttons container
+- on screen 
 
 
 
 ###  EVENT LISTENER: 
 
-  > only on top level container calc-buttons<br/>
-  > only click event for now<br/>
-  > func () => buttonClick(event.target.innerText)
+- only on top level container calc-buttons<br/>
+- only click event for now<br/>
+- func () => buttonClick(event.target.innerText)
 
 
 
-  **WARNING:** <br/>
+  WARNING: <br/>
+    
     > buttonClick() cb => put the data on a backpack 
 
-  **HINT:** <br/>
+  HINT:
+  
     > use String data to handle potential Coercion issues(String() , "" + )
     > use ParseInt() to simplify tasks  
 
