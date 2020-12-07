@@ -12,12 +12,12 @@
    => keeping track what been previously pressed
 4. const on **screen** 
 
-  **HINT**
+  **HINT** <br/>
           => assigning to "null" : 
-              => means : nothing was previously assigned..
+          means : nothing was previously assigned..
 
 
-### QUERIES SELECTORS
+### QUERY SELECTORS
 1. on calc-buttons container
 2. on screen 
 
@@ -31,12 +31,11 @@
 
 
 
-  **WARNING** 
-              => buttonClick() cb => put the data on a backpack 
+  **WARNING** <br/> 
+            => buttonClick() cb => put the data on a backpack 
 
-  **HINT**
-            => use String data to handle potential Coercion issues 
-                ==> String() , "" + 
+  **HINT** <br/>
+            => use String data to handle potential Coercion issues(String() , "" + )
             => use ParseInt() to simplify tasks  
 
 
@@ -49,20 +48,20 @@
 
 1. IF isNaN , then its a symbol
 
-2. ELSE is a number
- . use if statement
- . use isNan() & parseInt()
- . use two functions to handle situations
+2. ELSE is a number: 
+ - use if statement
+ - use isNan() & parseInt()
+ - use two functions to handle situations
     => handleNumber() & handleSymbol()
 
 
-  **HINT**
-            => play around with value (=data) then with **isNaN()** because
-                  => if isNaN then is a Symbol
+  **HINT**: play around with value (=data) <br/> 
+            =>then with **isNaN()** because
+            if isNaN then is a Symbol
 
             => using **parseInt** 
-                  => "4" // 4 
-                  => "C" // NaN
+            "4" // 4 
+            "C" // NaN
 
 
 
@@ -82,16 +81,16 @@ If is a **number**, play with **value & buffer**
 Use Switch statement to handle "C", "=",  "Arrow"
 
 **1. case "C" :** <br/>
-  ==> reset variables
-  ==> buffer to "0"  & runningTotal to 0
+  => reset variables
+  buffer to "0"  & runningTotal to 0
 
 **2. case "=" :** <br/>
-  ==> Assign buffer "" + (number(s) + symbol) to runningTotal
-      then reset runningTotal to 0, prevOp to null and 
-      handle operations with new func 
+  => Assign buffer "" + (number(s) + symbol) to runningTotal
+  then reset runningTotal to 0, prevOp to null and 
+  handle operations with new func 
 
-  ==> play with previousOp:  two situations <br/>
-  
+  => play with previousOp:  two situations <br/>
+
     => if( === null ) return
     
     => or
@@ -100,19 +99,26 @@ Use Switch statement to handle "C", "=",  "Arrow"
     reset runningTotal to 0
 
 **3. case "back arrow" :** <br/>
-  ==> Moving back one char (str) or reset to "0" if only one char
+  => Moving back one char (str) or reset to "0" if only one char
   
-  ==> play around with 
+  => play around with 
         buffer.length
         buffer.substring()
-  ==> in 2 situations: 
+  => in 2 situations: 
     => if .length === 1 so buffer reset to "0"
     => otherwise .substring(0, buffer.length -1)
 
 **4. default: :** <br/>
   call new func handleMath()
 
+
+
+  
+
 ###### **FUNCTION HANDLE MATH(value)**
+
+
+
 
 
 ###### **FUNCTION RE RENDER()**
