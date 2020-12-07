@@ -24,9 +24,9 @@
 
 ###  EVENT LISTENER: 
 
-  > - only on top level container calc-buttons
-    - only click event for now
-    - func () => buttonClick(event.target.innerText)
+  > only on top level container calc-buttons<br/>
+    only click event for now<br/>
+    func () => buttonClick(event.target.innerText)
 
 
 
