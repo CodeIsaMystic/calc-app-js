@@ -18,16 +18,16 @@
 
 
 ### QUERY SELECTORS:
-* on calc-buttons container
-* on screen 
+> on calc-buttons container
+> on screen 
 
 
 
 ###  EVENT LISTENER: 
 
   > only on top level container calc-buttons<br/>
-    only click event for now<br/>
-    func () => buttonClick(event.target.innerText)
+  > only click event for now<br/>
+  > func () => buttonClick(event.target.innerText)
 
 
 
@@ -35,8 +35,8 @@
     > buttonClick() cb => put the data on a backpack 
 
   **HINT:** <br/>
-    > * use String data to handle potential Coercion issues(String() , "" + )
-      * use ParseInt() to simplify tasks  
+    > use String data to handle potential Coercion issues(String() , "" + )
+    > use ParseInt() to simplify tasks  
 
 
 
