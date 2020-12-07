@@ -13,8 +13,7 @@
 4. const on **screen** 
 
   **HINT** <br/>
-          - assigning to "null" : 
-          means : nothing was previously assigned..
+      > assigning to "null" means : nothing was previously assigned..
 
 
 ### QUERY SELECTORS
@@ -31,12 +30,13 @@
 
 
 
-  **WARNING**
-            - buttonClick() cb => put the data on a backpack 
+  **WARNING** <br/>
+      - buttonClick() cb 
+        => put the data on a backpack 
 
-  **HINT**
-            - use String data to handle potential Coercion issues(String() , "" + )
-            - use ParseInt() to simplify tasks  
+  **HINT** <br/>
+      - use String data to handle potential Coercion issues(String() , "" + )
+      - use ParseInt() to simplify tasks  
 
 
 
