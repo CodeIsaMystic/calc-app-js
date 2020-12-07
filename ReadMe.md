@@ -31,10 +31,10 @@
 
 
 
-  **WARNING** <br/> 
+  **WARNING**
             - buttonClick() cb => put the data on a backpack 
 
-  **HINT** <br/>
+  **HINT**
             - use String data to handle potential Coercion issues(String() , "" + )
             - use ParseInt() to simplify tasks  
 
