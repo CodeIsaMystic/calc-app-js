@@ -25,9 +25,9 @@
 
 ###  EVENT LISTENER 
 
-  > only on top level container calc-buttons
-    only click event for now
-    func () => buttonClick(event.target.innerText)
+  > - only on top level container calc-buttons
+    - only click event for now
+    - func () => buttonClick(event.target.innerText)
 
 
 
@@ -50,7 +50,7 @@
 
 2. ELSE is a number: 
 
-        > - use if statement
+          - use if statement
           - use isNan() & parseInt()
           - use two functions to handle situations
           => handleNumber() & handleSymbol()
